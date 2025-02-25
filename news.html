@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Pinterest</title>
+    <link rel="icon" type="png" href="Pinterest-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:wght@400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        :root {
+    --white-color: #fff;
+    --dark-color: #808080;
+    --primary-color: #000080;
+    --secondary-color: #ffff7a;
+}
+
+        .section-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Navbar */
+        header {
+            background: var(--primary-color);
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .nav-logo h1 {
+            color: var(--white-color);
+            font-size: 1.8rem;
+        }
+
+        .back-home {
+            display: flex;
+            align-items: center;
+            background: var(--white-color);
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            transition: 0.3s;
+        }
+
+        .back-home i {
+            margin-right: 8px;
+        }
+
+        .back-home:hover {
+            background: var(--secondary-color);
+            color: var(--dark-color);
+        }
+
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+            padding: 100px 0;
+        }
+
+        .about-image-wrapper img {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .about-details {
+            max-width: 600px;
+        }
+
+        .about-details h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: x-large;
+        }
+
+        .underline {
+            width: 100px;
+            height: 4px;
+            background: var(--primary-color);
+            margin: 10px auto 0;
+            border-radius: 2px;
+            margin-bottom: 30px;
+        }
+
+        .about-details p {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-logo">
+            <img src="logo.jpg" alt="logo">
+            <h1>News</h1>
+        </div>
+        <a href="index.html" class="back-home">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+    </header>
+
+    <main>
+        <section class="section-content about-section">
+            <div class="about-image-wrapper">
+                <img src="aku.jpg" alt="News">
+            </div>
+            <div class="news-details">
+                <h2>News about me</h2>
+                <div class="underline"></div>
+                <p>Jadi, aku tu sekarang lagi banyak banget tugas huhu. Oh iya, case hp aku tiba-tiba patah,jadinya udah ga berfungsi lagi.</p>
+                <p>Aku punya kucing 2 namanya toby sama abu. Udah lama ga ketemu mereka, padahal lucu banget.</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
